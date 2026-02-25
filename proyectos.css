@@ -1,0 +1,50 @@
+  .proyectos {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px;
+
+  }
+  
+
+  .proyecto {
+    width: 350px;
+    height: 380px;
+    background-color: #F2F2F2;         
+    border: 2px solid #0056b3;             
+    color: #333333;                        
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);  
+    font-size: 12px;
+    text-align: left;
+    margin-top: 30px;
+
+  }
+
+  .proyecto img {
+    width: 320px;
+    height: 220px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  
+  .evento-contenido {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+  align-items: center;
+  margin-top: 25px;
+  text-align: justify;
+  line-height: 2;
+  margin-top: 40px;
+}
+
+.evento-contenido img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
